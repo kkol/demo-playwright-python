@@ -1,0 +1,6 @@
+config:
+  base_url: https://www.saucedemo.com
+  user: standard_user
+  password: secret_sauce
+  browser_headless: False
+  slow_mo: 100
