@@ -13,5 +13,5 @@ class Setup:
     setup = sync_playwright()\
         .start()\
         .chromium\
-        .launch(headless=read_config("browser_headless"), slow_mo=read_config("slow_mo"))\
+        .launch(headless=read_config("browser_headless"), slow_mo=read_config("slow_mo"), args=['--start-maximized'])\
         .new_page()
