@@ -3,9 +3,13 @@ The project is created to demonstrate how to use Playwright with Python.
 
 This is not official tutorial - just for demo purposes.
 
+
 ## Links
 - [Playwright - Python](https://playwright.dev/python/)
 - [venv setup](https://docs.python.org/3/library/venv.html)
+- [SauceDemo - testing page](https://www.saucedemo.com)
+
+
 
 ## How to run on local machine
 1. Prepare  [virtual environment](https://docs.python.org/3/library/venv.html),
