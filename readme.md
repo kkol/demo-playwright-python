@@ -1,4 +1,4 @@
-#Demo Playwright Project With Python and Behave
+# Demo Playwright Project With Python and Behave
 The project is created to demonstrate how to use Playwright with Python. 
 
 This is not official tutorial - just for demo purposes.
@@ -11,7 +11,7 @@ This is not official tutorial - just for demo purposes.
 1. Prepare  [virtual environment](https://docs.python.org/3/library/venv.html),
 2. Install requirements.txt (_pip install -r requirements.txt_)
 3. Setup playwright using command _playwright install_,
-4. For running test use commands,
+4. For running test use commands:
    - all tests: _python -m behave_
    - all test with raports: _python -m behave -f allure_behave.formatter:AllureFormatter -o res ./features_
 5. Generate raports with command: _allure generate res --clean_.  
